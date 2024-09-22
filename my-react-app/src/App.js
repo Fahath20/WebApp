@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Gallery from './Gallery/gallery';
-import PackingList from './PackingList/packing-list';
-import Button from './Button/button';
-import Parent from './Context/context';
-import Todo from './Todo/todo';
+import Gallery from './Hooks/gallery';
+import PackingList from './Hooks/packing-list';
+import Button from './Hooks/button';
+import Parent from './Hooks/context';
+import Todo from './Hooks/todo';
+import Search from './Hooks/search';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Button/>
       <Parent/>
       <Todo/>
+      <Search/>
     </div>
     
   );
